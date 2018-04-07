@@ -1,0 +1,232 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	color: white;
+	font-family: Roboto, sans-serif;
+	text-align: center;
+}
+
+.plan,
+.headwrapper {
+	padding: 0 10%;
+}
+
+.wrapper {
+	padding: 0 5%;
+}
+
+.job,
+.people {
+	max-width: 920px;
+}
+
+table,
+.job {
+	border-radius: 8px;
+	color: #eee;
+	background: #222;
+	font-size: 14px;
+}
+
+p {
+	max-width: 480px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+table,
+.job,
+.progress,
+.help {
+	border: 2px solid #ee7600;
+	background: #222;
+}
+
+.help,
+p,
+table, 
+.job,
+.plan,
+.headwrapper {
+	margin: auto;
+}
+
+/* ----- HEADER ----- */
+
+header {
+	background: linear-gradient(to top, black, transparent),
+				url(../img/Shuttle.jpg) no-repeat center / cover;
+	min-height: 100vh;
+	padding-top: 30vh;
+}
+
+h1 {
+	font-size: 3rem;
+	font-family: Play, sans-serif;
+	text-transform: uppercase;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+#x {
+	color: #ee7600;
+}
+
+h2 {
+	font-size: 18px;
+	padding: 18px;
+}
+
+img {
+	width: 30px;
+	margin-top: 15px;
+}
+
+/* ----- PLAN ----- */
+
+.plan {
+	min-height: 100vh;
+	padding-top: 30vh;
+}
+
+h3 {
+	font-size: 2rem;
+	padding: 40px;
+}
+
+p,
+li {
+	line-height: 1.4em;
+}
+
+#moon {
+	background: linear-gradient(black, transparent 80%),
+				linear-gradient(to top, black, transparent 80%),
+				url(../img/moon.jpg) no-repeat center / cover;
+}
+
+#flight {
+	background: linear-gradient(black, transparent 80%),
+				linear-gradient(to top, black, transparent 80%),
+				url(../img/rocket.jpg) no-repeat center / cover;
+}
+
+#sky {
+	background: linear-gradient(black, transparent 80%),
+				linear-gradient(to top, black, transparent 80%),
+				url(../img/sky.jpg) no-repeat center / cover;
+	padding-top: 20vh;
+}
+
+/* ----- PEOPLE ----- */
+
+.people {
+	margin: 20px auto;
+}
+
+td,
+th {
+	padding: 20px;
+}
+
+.left {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* ----- JOB ----- */
+
+.job {
+	padding: 0 30px 30px 40px;
+	border-radius: 10px;
+	background-color: #222;
+	text-align: left;
+}
+
+.job h3 {
+	font-weight: normal;
+	padding-left: 0;
+}
+
+.joblist li {
+	padding-bottom: 7px;
+}
+
+ul {
+	-webkit-padding-start: 0;
+	-moz-padding-start: 0;
+}
+
+h4 {
+	padding: 15px 0;
+}
+
+/* ----- MONEY ----- */
+
+.money {
+	padding: 30px;
+}
+
+.progress {
+	margin: 30px auto;
+	padding: 5px;
+	border: 2px solid #ee7600;
+	border-radius: 100px;
+	max-width: 400px;
+}
+
+.help {
+	max-width: 100px;
+	border-radius: 100px;
+	padding: 15px
+}
+
+footer {
+	border-top: 2px solid #444;
+	color: #444;
+	font-size: 12px;
+	margin-top: 40px;
+	padding: 20px;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media(min-width: 800px) {
+
+h1 {
+	font-size: 6rem;
+}
+
+.necessarily, 
+.not-necessarily {
+	width: 40%;
+}
+
+.necessarily {
+	float: left;
+}
+
+.not-necessarily {
+	float: right;
+	margin-left: 50px;
+}
+
+.group:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.job {
+	padding: 0 50px 50px 60px;
+}
+}
