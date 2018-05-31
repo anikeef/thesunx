@@ -19,8 +19,6 @@ header,
 header {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
               url(../img/Shuttle.jpg) center center no-repeat / cover;
-  opacity: 0;
-  animation: appear 3s 0.5s ease forwards;
 }
 
 .headwrapper {
