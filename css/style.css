@@ -101,8 +101,7 @@ p {
 }
 
 .goals {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url(../img/sun.jpg) no-repeat 10vh / 150%;
+  background: url(../img/sun.jpg) no-repeat 10vh / 150%;
 }
 
 .goal {
@@ -311,8 +310,7 @@ footer {
   }
   
 .goals {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url(../img/sun.jpg) no-repeat 30vw / 130%;
+  background: url(../img/sun.jpg) no-repeat 30vw / 130%;
 }
   
   .job {
