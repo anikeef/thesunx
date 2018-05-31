@@ -19,6 +19,8 @@ header,
 header {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
               url(../img/Shuttle.jpg) center center no-repeat / cover;
+  opacity: 0;
+  animation: appear 3s 0.5s ease forwards;
 }
 
 .headwrapper {
@@ -28,7 +30,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -100%)
+  transform: translate(-50%, -100%);
 }
 
 h1,
@@ -66,6 +68,7 @@ h2 {
   width: 30px;
   display: block;
   margin: auto;
+  animation: drag 1s alternate infinite;
 }
 
 .plan,
@@ -325,4 +328,14 @@ footer {
 
 .run {
   animation: run 10s forwards;
+}
+
+@keyframes drag {
+  from {transform: translateY(0)}
+  to {transform: translateY(-25%)}
+}
+
+@keyframes appear {
+  from {opacity: 0}
+  to {opacity: 1}
 }
