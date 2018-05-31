@@ -1,102 +1,120 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>THESUN2</title>
+  <title>THESUNX</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Teko:600" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Play&amp;subset=cyrillic" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&amp;subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
 
-<header> 
-<div class='headwrapper'> 
-  <h1>thesun<span id='x'>x</span></h1>
-  <h2>Самая масштабная космическая программа этого столетия.</h2>
-  <div class="more">Узнайте план</div>
-  <img src="img/arrow.svg"> 
-</div>
-</header>
+  <header>
+    <div class='headwrapper'>
+      <h1>TheSun<span class='x'>X</span></h1>
+      <h2>Самая масштабная космическая программа XXI века</h2>
+    </div>
+    <div class="more">
+      Узнайте большe
+      <img src="img/arrow.svg" class="arrow">
+    </div>
+    
+  </header>
 
-<div class="plan" id="moon">
-<h3>Лунный старт</h3>
-<p>Чтобы минимизировать затраты на преодоление земного притяжения, в рамках проекта TheSunX было решено осуществлять запуск прямо с Луны. Лунная гравитация в 6 раз слабее земной, что позволяет значительно уменьшить массу топливных баков.</p>
-</div>
+  <div class="plan moon">
+    <div class="article">
+      <h3>Лунный старт</h3>
+      <p>Чтобы минимизировать затраты на преодоление земного притяжения, в рамках проекта TheSunX было решено осуществлять запуск прямо с Луны. Лунная гравитация в 6 раз слабее земной, что позволяет значительно уменьшить массу топливных баков.</p>
+    </div>
+  </div>
 
-<div class="plan" id="flight">
-<h3>Ускоренный перелет</h3>
-<p>Благодаря использованию последних технологий, космический корабль с экипажем на борту прибудет к пункту назначения уже через 7 лет.<p>
-</div>
+  <div class="plan flight">
+    <div class="article">
+      <h3>Продуманный план</h3>
+      <p>Перед посадкой корабль сделает остановку, чтобы сбросить с борта лишнее золото и серебро. Это позволит облегчить его вес и освободить место для экземпляров солнечного грунта.</p>
+    </div>
+  </div>
 
-<div class="plan" id="sky">
-<h3>Высадка на Солнце</h3>
-<p>Чтобы обеспечить максимальную безопасность, для приземления мы выбрали северный полюс солнца. В холодный период температура там может падать ниже -30 градусов по Цельсию, что позволяет астронавту свободно выполнять свою работу.</p>
-</div>
+  <div class="plan goals">
+    <div class="article">
+      <h3>Цели миссии</h3>
+      <p class="goal">
+        Определить, как поведет себя человеческий организм в условиях солнечной радиации
+      </p>
+      <p class="goal">
+        Собрать достаточно лавы, чтобы поддержать жизнедеятельность земных вулканов
+      </p>
+      <p class="goal">
+        Построить солнечную электростанцию на солнце и обеспечить землю дешевой энергией
+      </p>
+    </div>
+  </div>
 
-<div class="wrapper">
-<div class="people" id="people">
-<h3>Участники</h3>
-<table>
-    <tr>
-	  <td class="left">Аникеев Геннадий</td>
-	  <td>Генеральный директор.</td>
-	</tr>
-	<tr>
-	  <td class="left">Павел Басгаль</td>
-	  <td>Студент-доброволец, единственный член экипажа.</td>
-	</tr>
-	<tr>
-	  <td class="left">Адольф</td>
-	  <td>Инженер-астрофизик-ядерщик, врач, юрист-правовед, бывший профессор математики и науковедения.</td>
-	</tr>
-	<tr>
-	<td class="left">Анатолий Никанов</td>
-	<td>Ответственный за всё в случае неудачи.</td>
-	</tr>
-</table>
-</div>
+    <div class="people article">
+      <h3>Участники</h3>
+      <div class="personcontainer">
+        <div class="person">
+          <h2>Павел Басгаль</h2>
+          <p>Студент, единственный член экипажа</p>
+        </div>
+        <div class="person">
+          <h2>Аникеев Геннадий</h2>
+          <p>Финансовый менеджер</p>
+        </div>
+        <div class="person">
+          <h2>Адольф</h2>
+          <p>Врач, бывший профессор ядерной астробиологии</p>
+        </div>
+        <div class="person">
+          <h2>Анатолий Никанов</h2>
+          <p>Ответственный за все неудачи</p>
+        </div>
+      </div>
+    </div>
 
-<div class="job group">
-<h3>Требуется <strong>Ученый</strong></h3>
-<div class="necessarily">
-<h4>Необходимо:</h4>
-<ul class="joblist">
-  <li>Аттестат или справка об окончании школы;</li>
-  <li>Готовность учиться у более опытных наставников;</li>
-  <li>Опыт работы не менее 60 лет;</li>
-  <li>Докторская степень;</li>
-  <li>Умение делить на ноль;</li>
-</ul>
-</div>
-<div class="not-necessarily">
-<h4>Желательно, но не обязательно:</h4>
-<ul class="joblist">
-  <li>Диплом о высшем образовании</li>
-  <li>Прическа, как у Эйнштейна</li>
-  <li>Навыки работы со сверхзадачами</li>
-</ul>
-</div>
-</div>
+    <div class="job">
+      <h3>Требуется <span class="bold">Ученый</span></h3>
+      <div class="listcontainer">
+        <div class="list">
+          <h2>Необходимо:</h2>
+          <ul class="joblist">
+            <li>Аттестат или справка об окончании школы;</li>
+            <li>Готовность учиться у более опытных наставников;</li>
+            <li>Опыт работы не менее 60 лет;</li>
+            <li>Докторская степень;</li>
+            <li>Умение делить на ноль;</li>
+          </ul>
+        </div>
+        <div class="list">
+          <h2>Желательно, но не обязательно:</h2>
+          <ul class="joblist">
+            <li>Диплом о высшем образовании</li>
+            <li>Прическа, как у Эйнштейна</li>
+            <li>Навыки работы со сверхзадачами</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-<div class="money" id="money">
-<h3>Помочь проекту</h3>
-<p>Для реализации программы TheSunX необходимо собрать 690.750.000.000 рублей. Вы можете поддержать проект, сделав пожертвование.</p>
-<div class="progress">
-0%
-</div>
-<a href="#money"><div class="help">
-Помочь
-</div></a>
-</div>
-</div>
+    <div class="money">
+      <div class="article">
+        <h3>Помочь проекту</h3>
+        <p>Для реализации программы TheSunX необходимо собрать 690.750.000.000 рублей. Вы можете поддержать проект, сделав пожертвование.</p>
+        <div class="progress">
+          0%
+        </div>
+        <button>Помочь</button>
+      </div>
+    </div>
 
-<footer>
-&copy;Аникеев Геннадий
-</footer>
+  <footer>
+    &copy;Аникеев Геннадий
+  </footer>
 
-</main>
+  <script type='text/javascript' src="script.js"></script>
 </body>
+
 </html>
