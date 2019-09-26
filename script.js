@@ -10,3 +10,10 @@ button.addEventListener('click', function(e) {
   }
   progress.textContent = percent + '%';
 })
+
+const arrow = document.querySelector('.arrow')
+
+arrow.addEventListener('click', function() {
+  const header = document.querySelector('header');
+  header.style.position = 'relative';
+})

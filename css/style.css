@@ -1,12 +1,12 @@
 * {
   margin: 0;
 	padding: 0;
-	font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
-  line-height: 1.25;
 }
 
 body {
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
 	background-color: black;
 	color: white;
 }
@@ -85,7 +85,7 @@ h3 {
 }
 
 p {
-  line-height: 1.3;
+  line-height: 1.6;
 }
 
 .moon {
@@ -185,6 +185,7 @@ button {
 
 .progress {
   margin: 40px 0 10px;
+  height: 35px;
 }
 
 button {
